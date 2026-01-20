@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  background-color: #636363; background-image:url(back.avif);
+  background-image: url(wallpapersong.jpg);
+}
+
+
+
+#wrapper {   
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  background-color: #fcf3f3e0;  /* Center box on page */
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); }
+
+h1 {
+  grid-column: span 4;
+  background-color: #7d4242;
+  color: #000000;
+  margin: 15px;
+  padding: 20px;
+  font: 32px;  
+  font-family: "Sour Gummy", serif;
+  color: rgb(31, 4, 4);
+  text-align: center;
+  border-radius: 10px;
+  
+}  
+
+
+
+
+main {
+  grid-column: span 4; 
+  border-bottom: 3px solid #7d4242;
+  margin: 15px;
+  text-align: center;
+  
+
+
+  h2 {
+    font-family: "Sour Gummy", serif;
+    font-size: 35px;
+    color: rgb(31, 4, 4); 
+  }
+}
+
+
+
+
+
+.box {
+   margin-left: 150px;
+   margin-bottom: 10px;
+   border: 15px solid #000000;
+   border-radius: 15px;
+   
+}
+
+
+
+
+
+
+section { 
+  grid-column: span 4;
+  font-family: "Sour Gummy", serif;
+   font-size: 20px;
+   background-color: #7d4242;
+   margin: 10px;
+   border-radius: 10px;
+  color: rgb(31, 4, 4);
+  padding-left: 20px;
+  text-align: justify;
+  padding-right: 20px;
+
+
+  h2 {
+  
+  font-size: 25px;
+    
+    margin-left: 10px;
+    margin-right: 150px;
+    margin-top: 16px;
+    
+}
+
+}
+
+
+
+footer {
+  grid-column: span 4; 
+  background-color: #7d4242;
+  font-family: "Sour Gummy", serif;
+  margin: 10px;
+ border-radius: 10px;
+  color: rgb(31, 4, 4);
+  
+  font-size: 20px;
+ 
+  h2 {
+    
+    font-size: 25px;
+    padding-left: 20px;
+    margin-bottom: -10px;
+    
+      
+      
+}
+}
+
+
+
+
+
