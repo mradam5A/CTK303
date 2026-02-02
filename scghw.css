@@ -1,0 +1,40 @@
+body{
+    background-color: #aee2fa;
+}
+ 
+#background { display: none; }
+
+
+header {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(94, 0, 0);
+  
+   padding-top: 50px;
+}
+
+
+#SVGCTK {
+  width: 300px;
+  display: block;
+  transition: transform .25s linear;
+  margin: 10px;
+  transform-origin: center; 
+  transform-box: fill-box;
+  margin: 10px auto;
+  
+}
+
+#SVGCTK:hover {
+  transform: scale(1.1);
+  
+}
+
+
+footer {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(94, 0, 0);
+  
+ 
+}
